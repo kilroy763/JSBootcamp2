@@ -1,0 +1,241 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 7 soorten primitive data typen\
+number\
+string\
+null\
+undefined\
+bolean\
+bigint\
+symbol\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 string + nummer = string met nummer erachter\
+14 + 1 = 14 1\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 var grade =\
+var is keyword\
+grade is variabel\
+= is assignment operator\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 1 + "14" is implicit - laat string string\
+explicit is 1 + Number("14") - maakt string een getal\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 je hebt var/let/const\
+var student = "henk" ;\
+als student opgevraagd wordt krijg je henk\
+je kan later nog student = "jan" geven\
+als je const gebruik is dit niet opnieuw te definen.\
+const asd = 123\
+dan is asd = 123\
+asd = 435 kan niet ingevoerd worden, kan geen nieuwe waarde krijgen.\
+let grade = 10\
+grade = 10 / in console invoeren\
+block of let scope.\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 Functies is een makkelijke manier om code te schrijven die je wilt hergebruiken.\
+function sum(a,b)\{\
+return a+b\
+\}\
+sum(1,2)\
+3\
+function is een keyword(\
+(a,b) zijn de parameters\
+(1,2) zijn de arguments.\
+sum is een scope\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 een string heeft bepaalde methods\
+"henk".include("h")\
+true\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 verschil tussen Null en Undefined\
+null geeft een waarde zonder waarde\
+undefined is een waarde wat niet mogelijk is, de waarde bestaat niet\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 sum (1,2)\
+var sum = function sum(a,b) \{\
+return(a,b)\
+\}\
+de function gebeurt in runtime, is dus voor nu undefined. dat komt door het gebruik van de var\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 var student = null\
+var grade = null\
+if(student) \{\
+student.grade = 10\
+\} if else(grade) \{\
+grade = 0\
+\} else \{\
+console.error("no student grade found")\
+\}\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 for (var index = 0; index < 10; index ++) \{\
+console.log(index)\
+\}\
+geeft 0 t/m 9\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 object is samengesteld uit {\field{\*\fldinst{HYPERLINK "applewebdata://A6D96BA3-AD4B-4ACE-9686-B6E89982A645/value"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 key}}:value pairs\
+object\{\
+\}\
+var student = \{\
+grade: 10\
+\}\
+var student = \{\
+name: "henk"\
+grade : 10\
+\}\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://student.name/"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 student.name}} is henk\
+etc\
+person2 = \{\
+name:"jan"\
+age:20\
+\}\
+if(person2.age \uc0\u8805  20) \{\
+console.log ( "match with" + {\field{\*\fldinst{HYPERLINK "http://student.name/"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 student.name}})\
+later kan je nog dingen toevoegen door\
+person2.wnatsage=50\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 ARRAY Var students = [ 1 , "1" , true]\
+bijv\
+var grades = [ 1, 2, 3, 4, 5]\
+var students [\{\
+name:"jan"\
+\},\{\
+name:"henk"\
+\}]\
+for loop voor array\
+for(var index = 0; index < students.length - 1; index++)\{\
+var students = students[index]\
+console.log(student)\
+\}\
+met arrays wordt er geteld vanuit 0. wil je 100 hebben moet je 99 vragen.\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 window geeft alle informatie terug over een pagina.\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 foreach is een method met een functie erin :\
+students.forEach((function(students)\{\
+console.log(students)\
+\})\
+bovenste students is een parameter\
+onderste is een argument.\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 students.push(\{name: "Piet"\})\
+dan komt er bij students piet bij.\
+\pard\pardeftab720\sl280\sa120\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 3 methods\
+map / filter / reduce\
+map geeft een nieuw array met het geen wat je opvraagt\
+filter geeft een nieuw array met hetgeen wat true condition heeft\
+reduce geeft terug met wat je zelf maar wilt\
+students.map(function(student)\{\
+return {\field{\*\fldinst{HYPERLINK "http://student.name/"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 student.name}} + '1'\
+\})\
+return is een keyword van javascript\
+hierdoor krijg je alle namen van de students terug met 1 erachter in een nieuw array.\
+het stukje student is een variabele naam die je zelf kan invoeren.\
+students.filter(function(student)\{\
+return {\field{\*\fldinst{HYPERLINK "http://student.name/"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 student.name}} = = = 'piet'\
+\})\
+geeft alleen piet terug want die is true\
+je krijgt echt een nieuwe array, students wordt niet aangepast!\
+als je hier een variabele voor zet kan je de nieuw gemaakte array opnieuw gebruiken.\
+[\{grade:5],\{grade10\}]\
+students.reduce(function(sum, student)\{\
+return sum+student.grade\
+\}, 0)\
+eerste keer krijg je 5 en 10 terug\
+tweede keer krijg je 10 en 20 terug\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1 \cf2 var cyclists = [\
+\
+\{\
+\
+time: 102\
+\
+\},\
+\
+\{ \
+\
+time: 50\
+\
+\},\
+\
+\{\
+\
+time: 40\
+\
+\},\
+\
+\{\
+\
+time: 192\
+\
+\},\
+\
+\{\
+\
+time:45\
+\
+\},\
+\
+\{\
+\
+time:51\
+\
+\}\
+\
+]\
+\
+cyclists.reduce(function(fastestTime, currentTime) \{\
+ if(fastestTime > currentTime.time) \{\
+		return currentTime.time\
+	\} else \{\
+		return fastestTime.time\
+	\
+\}, infinity)\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f0 \cf2 wat je returned komt als eerste parameter terug in de code.\
+eerst vergelijkt die infinity met de eerste tijd\
+dan wordt de return teruggeplaatst\
+en die met de volgende vergeleken.\
+}
